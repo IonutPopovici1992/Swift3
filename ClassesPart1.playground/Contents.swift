@@ -22,9 +22,13 @@ myPost.author = "Chris Ching"
 myPost.body = "Hello 1 ..."
 myPost.addComment()
 
+print(myPost.title)
+print(myPost.author)
+print(myPost.body)
 print(myPost.numberOfComments)
 
 print(myPost)
+
 
 let mySecondPost = BlogSpot()
 mySecondPost.title = "Goodbye, playground!"
@@ -32,6 +36,9 @@ mySecondPost.author = "John Travolta"
 mySecondPost.body = "Hello 2 ..."
 mySecondPost.addComment()
 
+print(mySecondPost.title)
+print(mySecondPost.author)
+print(mySecondPost.body)
 print(mySecondPost.numberOfComments)
 
 print(mySecondPost)

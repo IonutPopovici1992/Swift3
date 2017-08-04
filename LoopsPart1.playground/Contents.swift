@@ -3,6 +3,7 @@
 import UIKit
 
 var str = "Hello, playground!"
+print(str)
 
 var sum = 0
 

@@ -3,8 +3,9 @@
 import UIKit
 
 var str = "Hello, playground!"
+print(str)
 
-class BlogSpot {
+class BlogSpot: NSObject {
     
     var title = ""
     var body = ""
@@ -14,6 +15,18 @@ class BlogSpot {
     func addComment() {
         numberOfComments += 1
     }
+    
+    override var description: String {
+        get {
+            return "Message!!!"
+        }
+    }
+    
+    /*
+     func representation() -> String {
+        return self.title + " " + self.body + self.author
+     }
+    */
 }
 
 let myPost = BlogSpot()

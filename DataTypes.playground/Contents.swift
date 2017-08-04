@@ -3,7 +3,6 @@
 import UIKit
 
 var str: String = "Hello, playground!"
-
 print(str)
 
 var a: Int = 2

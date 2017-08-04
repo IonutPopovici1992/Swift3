@@ -3,6 +3,7 @@
 import UIKit
 
 var str = "Hello, playground!"
+print(str)
 
 func addTwoNumbers(_ number1: Int, _ number2: Int) -> Int {
     

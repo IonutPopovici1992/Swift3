@@ -3,6 +3,7 @@
 import UIKit
 
 var str = "Hello, playground!"
+print(str)
 
 var counter = 5
 
@@ -15,4 +16,5 @@ while counter > 0 {
 repeat {
     print("Hello 2!")
     counter -= 1
-} while counter > 0
+}
+while counter > 0

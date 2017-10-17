@@ -69,4 +69,4 @@ for scene in romeoAndJuliet {
         cellCount += 1
     }
 }
-print("\(mansionCount) mansion scenes; \(mansionCount) cell scenes.")
+print("\(mansionCount) mansion scenes; \(cellCount) cell scenes.")

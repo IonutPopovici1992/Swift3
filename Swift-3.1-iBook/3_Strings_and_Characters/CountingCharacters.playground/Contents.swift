@@ -8,7 +8,7 @@ var str = "Hello, playground!!!"
 
 let unusualMenagerie = "Koala 🐨, Snail 🐌, Penguin 🐧, Dromedary 🐪"
 print("unusualMenagerie has \(unusualMenagerie.count) characters.")
-// Prints "unusualMenagerie has 40 characters"
+// Prints "unusualMenagerie has 40 characters."
 
 var word = "cafe"
 print("The number of characters in \(word) is \(word.count).")

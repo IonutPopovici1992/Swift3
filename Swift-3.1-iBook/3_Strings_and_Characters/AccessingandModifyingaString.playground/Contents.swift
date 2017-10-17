@@ -29,11 +29,15 @@ var welcome = "Hello"
 welcome.insert("!", at: welcome.endIndex)
 // welcome now equals "Hello!"
 print()
+print()
 print(welcome)
+print()
 welcome.insert(contentsOf: " there", at: welcome.index(before: welcome.endIndex))
 print(welcome)
+print()
 welcome.remove(at: welcome.index(before: welcome.endIndex))
 print(welcome)
+print()
 // welcome now equals "Hello there"
 let range = welcome.index(welcome.endIndex, offsetBy: -6)..<welcome.endIndex
 welcome.removeSubrange(range)

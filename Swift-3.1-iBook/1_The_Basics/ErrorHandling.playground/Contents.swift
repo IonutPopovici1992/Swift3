@@ -2,7 +2,7 @@
 
 import UIKit
 
-func canThrowAnError() throw {
+func canThrowAnError() throws {
     // this function may or may not throw an error
 }
 
@@ -14,13 +14,25 @@ do {
 }
 
 
-func makeASandwich() throw {
+func makeASandwich() throws {
+    // ...
+}
+
+func eatASandwich() throws {
+    // ...
+}
+
+func washDishes() throws {
+    // ...
+}
+
+func buyGroceries() {
     // ...
 }
 
 do {
     try makeASandwich()
-    eatASandwich()
+    try eatASandwich()
 } catch SandwichError.outOfCleanDishes {
     washDishes()
 } catch SandwichError.missingIngredients(let ingredients) {

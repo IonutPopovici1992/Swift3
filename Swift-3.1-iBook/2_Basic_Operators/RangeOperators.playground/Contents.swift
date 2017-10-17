@@ -18,6 +18,8 @@ for i in 0..<count {
 // Person 3 is called Brian
 // Person 4 is called Jack
 
+print()
+
 //// One-Sided Ranges
 for name in names[2...] {
     print(name)
@@ -25,12 +27,16 @@ for name in names[2...] {
 // Brian
 // Jack
 
+print()
+
 for name in names[...2] {
     print(name)
 }
 // Anna
 // Alex
 // Brian
+
+print()
 
 for name in names[..<2] {
     print(name)

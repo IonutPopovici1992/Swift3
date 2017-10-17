@@ -12,6 +12,8 @@ let (x, y) = (1, 2)
 print(x)
 print(y)
 
+/*
 if x = y {
     // This is not valid, because x = y does not return a value.
 }
+*/

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13174"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="AudioPlayer" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iUn-Ix-4GP">
+                                <rect key="frame" x="16" y="279" width="75" height="30"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="5Ml-n5-r6Q"/>
+                                    <constraint firstAttribute="width" constant="75" id="HEq-Oc-5xl"/>
+                                </constraints>
+                                <state key="normal" title="PLAY">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="play:" destination="BYZ-38-t0r" eventType="touchUpInside" id="V0u-sT-dii"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EGm-8L-e5z">
+                                <rect key="frame" x="122.5" y="279" width="75" height="30"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="75" id="4d8-O9-aWB"/>
+                                    <constraint firstAttribute="height" constant="30" id="K2W-z9-gC9"/>
+                                </constraints>
+                                <state key="normal" title="PAUSE">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="pause:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NnG-GW-BkW"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ld2-Cv-dAK">
+                                <rect key="frame" x="229" y="279" width="75" height="30"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="75" id="2HU-SE-iKU"/>
+                                    <constraint firstAttribute="height" constant="30" id="xXg-UK-oCh"/>
+                                </constraints>
+                                <state key="normal" title="REPLAY">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="replay:" destination="BYZ-38-t0r" eventType="touchUpInside" id="r9D-XA-cXl"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Oakland" translatesAutoresizingMaskIntoConstraints="NO" id="yfa-fU-Uy2">
+                                <rect key="frame" x="8" y="20" width="304" height="243"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="yfa-fU-Uy2" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="8" id="JT9-Yk-aky"/>
+                            <constraint firstItem="EGm-8L-e5z" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="PUJ-QN-s65"/>
+                            <constraint firstItem="Ld2-Cv-dAK" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="Rv0-7w-IGa"/>
+                            <constraint firstItem="iUn-Ix-4GP" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="WjT-nL-8zB"/>
+                            <constraint firstItem="EGm-8L-e5z" firstAttribute="top" secondItem="yfa-fU-Uy2" secondAttribute="bottom" constant="16" id="hrV-HF-sD8"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="yfa-fU-Uy2" secondAttribute="trailing" constant="8" id="igf-ki-yiN"/>
+                            <constraint firstItem="yfa-fU-Uy2" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="jWS-I2-5Ud"/>
+                            <constraint firstItem="iUn-Ix-4GP" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="kJ3-Yf-S9a"/>
+                            <constraint firstItem="EGm-8L-e5z" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="qH7-wo-xgx"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Ld2-Cv-dAK" secondAttribute="trailing" constant="16" id="qeE-Ar-zeR"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="116.25" y="118.30985915492958"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Oakland" width="1920" height="1200"/>
+    </resources>
+</document>

@@ -1,5 +1,7 @@
 //: Playground - noun: a place where people can play
 
+/// Type Safety and Type Inference
+
 import UIKit
 
 let meaningOfLife = 42

@@ -1,10 +1,10 @@
 //: Playground - noun: a place where people can play
 
+/// Arrays
+
 import UIKit
 
 var str = "Hello, playground!!!"
-
-//// Arrays
 
 // An array stores values of the same type in an ordered list.
 // The same value can appear in an array multiple times at different positions.

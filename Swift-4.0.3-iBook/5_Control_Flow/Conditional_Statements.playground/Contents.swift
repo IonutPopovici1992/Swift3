@@ -1,10 +1,10 @@
 //: Playground - noun: a place where people can play
 
+//// Conditional Statements
+
 import UIKit
 
 var str = "Hello, playground!!!"
-
-//// Conditional Statements
 
 /// If
 
@@ -142,6 +142,8 @@ switch yetAnotherPoint {
         print("(\(x), \(y)) is just some arbitrary point")
 }
 // Prints "(1, -1) is on the line x == -y"
+
+print()
 
 /// Compound Cases
 

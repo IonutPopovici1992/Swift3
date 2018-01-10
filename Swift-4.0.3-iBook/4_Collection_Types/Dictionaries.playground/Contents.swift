@@ -1,10 +1,10 @@
 //: Playground - noun: a place where people can play
 
+/// Dictionaries
+
 import UIKit
 
 var str = "Hello, playground!!!"
-
-//// Dictionaries
 
 /// Dictionary Type Shorthand Syntax
 
@@ -74,7 +74,7 @@ print()
 for (airportCode, airportName) in airports {
     print("\(airportCode): \(airportName)")
 }
-// YYZ: Toronto Pearson
+// YYZ: Toronto Pearsonf
 // LHR: London Heathrow
 print()
 

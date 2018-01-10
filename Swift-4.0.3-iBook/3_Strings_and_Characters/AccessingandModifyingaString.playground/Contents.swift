@@ -1,6 +1,6 @@
 //: Playground - noun: a place where people can play
 
-//// Accessing and Modifying a String
+/// Accessing and Modifying a String
 
 import UIKit
 

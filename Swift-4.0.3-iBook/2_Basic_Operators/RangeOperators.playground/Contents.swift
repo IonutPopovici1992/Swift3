@@ -1,13 +1,15 @@
 //: Playground - noun: a place where people can play
 
+/// Range Operators
+
 import UIKit
 
-//// Closed Range Operator
+/// Closed Range Operator
 for index in 1...5 {
     print("\(index) times 5 is \(index * 5)")
 }
 
-//// Half-Open Range Operator
+/// Half-Open Range Operator
 let names = ["Anna", "Alex", "Brian", "Jack"]
 let count = names.count
 for i in 0..<count {
@@ -20,7 +22,7 @@ for i in 0..<count {
 
 print()
 
-//// One-Sided Ranges
+/// One-Sided Ranges
 for name in names[2...] {
     print(name)
 }
@@ -44,7 +46,7 @@ for name in names[..<2] {
 // Anna
 // Alex
 
-//// Other
+/// Other
 let range = ...5
 range.contains(7) // false
 range.contains(4) // true

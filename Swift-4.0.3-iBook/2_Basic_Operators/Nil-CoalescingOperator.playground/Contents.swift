@@ -1,5 +1,7 @@
 //: Playground - noun: a place where people can play
 
+/// Nil-Coalescing Operator
+
 import UIKit
 
 let defaultColorName = "red"

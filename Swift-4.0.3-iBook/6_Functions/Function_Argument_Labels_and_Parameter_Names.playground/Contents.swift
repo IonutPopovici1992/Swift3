@@ -1,10 +1,10 @@
 //: Playground - noun: a place where people can play
 
+//// Function Argument Labels and Parameter Names
+
 import UIKit
 
 var str = "Hello, playground!!!"
-
-//// Function Argument Labels and Parameter Names
 
 func someFunction(firstParameterName: Int, secondParameterName: Int) {
     // In the function body, firstParameterName and secondParameterName

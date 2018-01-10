@@ -1,6 +1,6 @@
 //: Playground - noun: a place where people can play
 
-//// Substrings
+/// Substrings
 
 import UIKit
 

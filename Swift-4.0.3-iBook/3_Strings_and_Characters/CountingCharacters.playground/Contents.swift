@@ -1,6 +1,6 @@
 //: Playground - noun: a place where people can play
 
-//// Counting Characters
+/// Counting Characters
 
 import UIKit
 

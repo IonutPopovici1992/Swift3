@@ -1,5 +1,7 @@
 //: Playground - noun: a place where people can play
 
+/// Tuples
+
 import UIKit
 
 let http404Error = (404, "Not Found")

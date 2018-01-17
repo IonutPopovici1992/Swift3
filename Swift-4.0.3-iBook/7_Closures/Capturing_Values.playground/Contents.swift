@@ -1,10 +1,10 @@
 //: Playground - noun: a place where people can play
 
+//// Capturing Values
+
 import UIKit
 
 var str = "Hello, playground!!!"
-
-//// Capturing Values
 
 func makeIncrementer(forIncrement amount: Int) -> () -> Int {
     var runningTotal = 0
@@ -32,7 +32,7 @@ incrementBySeven()
 incrementByTen()
 // returns a value of 40
 
-//// Closures Are Reference Types
+/// Closures Are Reference Types
 
 let alsoIncrementByTen = incrementByTen
 alsoIncrementByTen()

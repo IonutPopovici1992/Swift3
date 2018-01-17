@@ -1,10 +1,10 @@
 //: Playground - noun: a place where people can play
 
+//// Function Types
+
 import UIKit
 
 var str = "Hello, playground!!!"
-
-//// Function Types
 
 func addTwoInts(_ a: Int, _ b: Int) -> Int {
     return a + b
@@ -20,6 +20,7 @@ func printHelloWorld() {
     print("Hello, World!")
 }
 printHelloWorld()
+
 
 /// Using Function Types
 var mathFunction: (Int, Int) -> Int = addTwoInts
@@ -37,6 +38,7 @@ func printMathResult(_ mathFunction: (Int, Int) -> Int, _ a: Int, _ b: Int) {
 }
 printMathResult(addTwoInts, 3, 5)
 // Prints "Result: 8"
+
 
 /// Function Types as Return Types
 

@@ -1,10 +1,10 @@
 //: Playground - noun: a place where people can play
 
+//// Closure Expressions
+
 import UIKit
 
 var str = "Hello, playground!!!"
-
-//// Closure Expressions
 
 /// The Sorted Method
 
@@ -17,6 +17,7 @@ func backward(_ s1: String, _ s2: String) -> Bool {
 var reversedNames = names.sorted(by: backward)
 // reversedNames is equal to ["Ewa", "Daniella", "Chris", "Barry", "Alex"]
 print(reversedNames)
+
 
 /// Closure Expression Syntax
 

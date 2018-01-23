@@ -8,6 +8,7 @@ var str = "Hello, playground!!!"
 
 let greeting = "Hello, world!!!"
 let index = greeting.index(of: ",") ?? greeting.endIndex
+print(index)
 let beginning = greeting[..<index]
 print(beginning)
 // beginning is "Hello"

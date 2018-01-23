@@ -74,13 +74,14 @@ print()
 for (airportCode, airportName) in airports {
     print("\(airportCode): \(airportName)")
 }
-// YYZ: Toronto Pearsonf
+// YYZ: Toronto Pearson
 // LHR: London Heathrow
 print()
 
 for airportCode in airports.keys {
     print("Airport code: \(airportCode)")
 }
+
 // Airport code: YYZ
 // Airport code: LHR
 print()

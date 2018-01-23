@@ -33,7 +33,7 @@ if convertedNumber != nil {
 if let actualNumber = Int(possibleNumber) {
     print("\"\(possibleNumber)\" has an integer value of \(actualNumber).")
 } else {
-    print("\" \(possibleNumber)\" could not be converted to an integer.")
+    print("\"\(possibleNumber)\" could not be converted to an integer.")
 }
 // Prints ""123" has an integer value of 123."
 

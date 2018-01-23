@@ -43,7 +43,6 @@ someFunction3(parameterWithoutDefault: 3, parameterWithDefault: 6)
 someFunction3(parameterWithoutDefault: 4) // parameterWithDefault is 12
 
 /// Variadic Parameters
-
 func arithmeticMean(_ numbers: Double...) -> Double {
     var total: Double = 0
     

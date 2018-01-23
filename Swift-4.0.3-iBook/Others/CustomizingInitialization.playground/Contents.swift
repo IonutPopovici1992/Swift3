@@ -21,6 +21,8 @@ struct Celsius {
 }
 
 let boilingPointOfWater = Celsius(fromFahrenheit: 212.0)
+print(boilingPointOfWater.temperatureInCelsius)
 // boilingPointOfWater.temperatureInCelsius is 100.0
 let freezingPointOfWater = Celsius(fromKelvin: 273.15)
+print(freezingPointOfWater.temperatureInCelsius)
 // freezingPointOfWater.temperatureInCelsius is 0.0

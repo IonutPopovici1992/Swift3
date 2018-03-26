@@ -1,10 +1,6 @@
-//: Playground - noun: a place where people can play
-
 //// Methods
 
 import UIKit
-
-var str = "Hello, playground!!!"
 
 /// Instance Methods
 
@@ -35,6 +31,7 @@ counter.reset()
 // the counter's value is now 0
 
 // - The self Property
+
 struct Point {
     var x = 0.0, y = 0.0
     
@@ -51,8 +48,10 @@ if somePoint.isToTheRightOf(x: 1.0) {
 // Prints "This point is to the right of the line where x == 1.0"
 
 // - Modifying Value Types from Within Instance Methods
+
 struct Point2 {
     var x = 0.0, y = 0.0
+    
     mutating func moveBy(x deltaX: Double, y deltaY: Double) {
         x += deltaX
         y += deltaY
@@ -68,8 +67,10 @@ let fixedPoint = Point2(x: 3.0, y: 3.0)
 // this will report an error
 
 // - Assigning to self Within a Mutating Method
+
 struct Point3 {
     var x = 0.0, y = 0.0
+    
     mutating func moveBy(x deltaX: Double, y deltaY: Double) {
         self = Point3(x: x + deltaX, y: y + deltaY)
     }
@@ -114,6 +115,7 @@ struct LevelTracker {
     }
     
     @discardableResult
+    
     mutating func advance(to level: Int) -> Bool {
         if LevelTracker.isUnlocked(level) {
             currentLevel = level

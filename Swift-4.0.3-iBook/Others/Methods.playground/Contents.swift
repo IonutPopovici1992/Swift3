@@ -22,15 +22,22 @@ class Counter {
 
 let counter = Counter()
 // the initial counter value is 0
+print(counter.count)
 
 counter.increment()
 // the counter's value is now 1
+print(counter.count)
+
 counter.increment(by: 5)
 // the counter's value is now 6
+print(counter.count)
+
 counter.reset()
 // the counter's value is now 0
+print(counter.count)
 
-// - The self Property
+
+/// - The self Property
 
 struct Point {
     var x = 0.0, y = 0.0
@@ -47,7 +54,8 @@ if somePoint.isToTheRightOf(x: 1.0) {
 }
 // Prints "This point is to the right of the line where x == 1.0"
 
-// - Modifying Value Types from Within Instance Methods
+
+/// - Modifying Value Types from Within Instance Methods
 
 struct Point2 {
     var x = 0.0, y = 0.0
@@ -62,11 +70,13 @@ var somePoint2 = Point2(x: 1.0, y: 1.0)
 somePoint2.moveBy(x: 2.0, y: 3.0)
 print("The point is now at (\(somePoint.x), \(somePoint.y))")
 // Prints "The point is now at (3.0, 4.0)"
+
 let fixedPoint = Point2(x: 3.0, y: 3.0)
 // fixedPoint.moveBy(x: 2.0, y: 3.0)
 // this will report an error
 
-// - Assigning to self Within a Mutating Method
+
+/// - Assigning to self Within a Mutating Method
 
 struct Point3 {
     var x = 0.0, y = 0.0
@@ -110,7 +120,7 @@ struct LevelTracker {
         }
     }
     
-    static func isUnlocked(_ level: Int) {
+    static func isUnlocked(_ level: Int) -> Bool {
         return level <= highestUnlockedLevel
     }
     

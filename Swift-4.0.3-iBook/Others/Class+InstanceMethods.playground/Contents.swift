@@ -1,23 +1,70 @@
 import UIKit
 
-/// class methods
+//// Class methods
 
-class Utils {
+class CharacterAchetype {
+    class var isInDistress: Bool { return false }
+}
+
+class DamselInDistress: CharacterAchetype {
     
-    class func Factorial(number: Int) -> Int {
-        var result: Int = 1
-        while number > 1 {
-            result *= number
-            number--
-        }
-        return result
+    override class var isInDistress: Bool { return true }
+    
+    let name: String
+    let hairColor: UIColor
+    let race: String
+    
+    init(name inName: String, hairColor inHairColor: UIColor, race inRace: String) {
+        name = inName
+        hairColor = inHairColor
+        race = inRace
     }
 }
 
-print(Utils.Factorial(number: 5))
+var spiderManMaryJane = DamselInDistress(name: "Mary Jane", hairColor: .red, race: "white")
+DamselInDistress.isInDistress
+var fifthElement = DamselInDistress(name: "Russian Girl", hairColor: .yellow, race: "white")
 
 
-/// instance methods
+class Utils {
+    
+//    class Factorial {
+//        let factor: Int
+//
+//        init(number inNumber: Int) {
+//            var number = inNumber
+//            var result: Int = 1
+//            while number > 1 {
+//                result *= number
+//                number -= 1
+//            }
+//            factor = result
+//        }
+//    }
+
+    class func factorial(number: Int) -> Int {
+        var result: Int = 1
+        var mutableNumber = number
+        while mutableNumber > 1 {
+            result *= mutableNumber
+            mutableNumber -= 1
+        }
+        return result
+    }
+
+}
+
+Utils.factorial(number: 5)
+var number: Int = 5
+print(number) // -> expect "5"
+Utils.factorial(number: number)
+print(number) // -> expect "1"
+
+print(Utils.factorial(number: 5))
+var utils = Utils()
+
+
+//// Instance methods
 
 struct Tag {
     let name: String
@@ -28,7 +75,7 @@ struct Post {
     let author: String
     let tag: Tag
     
-    func description() -> String {
+     func description() -> String {
         return "\(title) by \(author). Filed under \(tag.name)"
     }
 }

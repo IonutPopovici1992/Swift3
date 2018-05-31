@@ -1,5 +1,3 @@
-//: Playground - noun: a place where people can play
-
 /// Range Operators
 
 import UIKit

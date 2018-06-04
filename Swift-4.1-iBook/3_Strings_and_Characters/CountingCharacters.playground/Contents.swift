@@ -1,10 +1,6 @@
-//: Playground - noun: a place where people can play
-
 /// Counting Characters
 
 import UIKit
-
-var str = "Hello, playground!!!"
 
 let unusualMenagerie = "Koala 🐨, Snail 🐌, Penguin 🐧, Dromedary 🐪"
 print("unusualMenagerie has \(unusualMenagerie.count) characters.")

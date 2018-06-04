@@ -1,10 +1,6 @@
-//: Playground - noun: a place where people can play
-
 /// Accessing and Modifying a String
 
 import UIKit
-
-var str = "Hello, playground!!!"
 
 // String Indices
 let greeting = "Guten Tag!"

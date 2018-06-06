@@ -1,10 +1,6 @@
-//: Playground - noun: a place where people can play
-
 /// Dictionaries
 
 import UIKit
-
-var str = "Hello, playground!!!"
 
 /// Dictionary Type Shorthand Syntax
 

@@ -1,10 +1,6 @@
-//: Playground - noun: a place where people can play
-
 import UIKit
 
 //// Properties
-
-var str = "Hello, playground!!!"
 
 /// Stored Properties
 

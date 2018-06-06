@@ -1,10 +1,6 @@
-//: Playground - noun: a place where people can play
-
 /// Structures and Enumerations Are Value Types
 
 import UIKit
-
-var str = "Hello, playground!!!"
 
 class SomeClass {
     // class definition goes here
@@ -47,7 +43,6 @@ print("cinema is now \(cinema.width) pixels wide")
 
 print("hd is still \(hd.width) pixels wide")
 // Prints "hd is still 1920 pixels wide"
-
 
 enum CompassPoint {
     case north, south, east, west

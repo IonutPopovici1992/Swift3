@@ -1,5 +1,3 @@
-/// Range Operators
-
 import UIKit
 
 /// Closed Range Operator

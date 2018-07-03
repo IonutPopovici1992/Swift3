@@ -1,5 +1,3 @@
-/// Nil-Coalescing Operator
-
 import UIKit
 
 let defaultColorName = "red"

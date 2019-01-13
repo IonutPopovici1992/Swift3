@@ -1,10 +1,6 @@
-//: Playground - noun: a place where people can play
-
 //// Closure Expressions
 
 import UIKit
-
-var str = "Hello, playground!!!"
 
 /// The Sorted Method
 
